@@ -1,0 +1,6 @@
+This is a simple sensor that works with the Olimex eduArdu board(copy of the original Arduino Leonardo board). It has a bunch of sensors, but we are mainly using the rgb sensor, the led matrix, the joystick, the buzzer,and the sonar. 
+To provide more information about the sensor, its simple, you rotate the joystick and it changes the colour the rgb sensor is producing.
+The sonar sends sound waves, that should be reflected by the material that's infront of it(please don't use smooth curved materials, as they can cause the waves to bounce in a different direction).
+If the wave is in less than a meter distance from us, the buzzer will start ringing in a slow manner.
+The closer we get the more intense the ringing will be. We change the ringing by altering the mHz that the buzzer uses.
+More mHz the faster it will ring, the stronger it will sound, and the opposite will result in less ringing.
